@@ -1,3 +1,10 @@
 body {
     background-color: #7b5266;
 }
+
+.container {
+    width: 600px;
+    font-family: sans-serif;
+    color: #ffffff;
+    margin: auto;
+}

@@ -10,9 +10,17 @@
 </head>
 <body>
     <div class="container">
-
+        <form method="post">
+            <fieldset>
+                <legend>Contact Information</legend>
+                First Name: <input type="text" name="firstname"><br>
+                Last Name: <input type="text" name="lastname"><br>
+                Email: <input type="email" name="email"><br>
+                Message:<br> <textarea name="message" rows="10" cols="30">Type your message here...</textarea><br>
+                <input id="button" type="submit" value="Submit now"/>
+            </fieldset>
+        </form>
     </div>
-
     <script src="js/main.js"></script>
 </body>
 </html>

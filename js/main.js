@@ -1,3 +1,5 @@
+//This function and event listener changes text inside the table
+
 var change = document.getElementById( 'fun-table' );
 change.addEventListener( 'click', modifyTable, false
 );
@@ -10,3 +12,11 @@ function modifyTable() {
     t1.firstChild.nodeValue = 'sweet';
   }
 }
+
+//Change color of h1 using the DOM
+
+var color = document.getElementById( 'main-heading' );
+
+color.addEventListener( 'mouseover', function changeColor() {
+    color.className = 'heading';
+} );

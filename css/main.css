@@ -68,3 +68,10 @@ h3 {
     font-weight: 700;
     color: #8b0a50;
 }
+
+#morelink {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: #8b0a50;
+}

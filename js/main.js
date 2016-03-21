@@ -20,3 +20,15 @@ var color = document.getElementById( 'main-heading' );
 color.addEventListener( 'mouseover', function changeColor() {
     color.className = 'heading';
 } );
+
+//Add paragraphs to article by clicking
+
+var clickLink = document.getElementById( 'morelink' );
+var newParagraph = document.getElementById( 'extra' );
+
+clickLink.addEventListener( 'click', function( event ) {
+    event.preventDefault();
+    newParagraph.style.display = ( newParagraph.style.display === 'none' ) ? 'block' : 'none';
+}, false );
+
+newParagraph.style.display = 'none';
